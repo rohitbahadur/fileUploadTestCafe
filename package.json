@@ -1,0 +1,21 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "testAssignment",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "prettier": "^2.1.2",
+    "testcafe": "^1.9.3"
+  },
+  "devDependencies": {
+    "xpath-to-css": "^1.0.5"
+  },
+  "scripts": {
+    "test": "testcafe chrome ./tests"
+  },
+  "author": "Rohit Bahadur",
+  "license": "ISC"
+}
