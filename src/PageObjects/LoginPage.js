@@ -21,7 +21,6 @@ class LoginPage {
    // async uploadFile(t) {
      //   await t
        // .maximizeWindow()
-        
 
    // }
 

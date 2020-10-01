@@ -1,8 +1,6 @@
 import LoginPage from '../src/PageObjects/LoginPage'
 import PopUpScreen from '../src/PageObjects/PopUpScreen'
 import UserPanel from '../src/PageObjects/UserPanel'
-
-
 import Data from '../src/data/TestData.json'
 
 
