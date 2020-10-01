@@ -1,8 +1,7 @@
-import { Selector } from 'testcafe'
-
 import LoginPage from '../src/PageObjects/LoginPage'
 import PopUpScreen from '../src/PageObjects/PopUpScreen'
 import UserPanel from '../src/PageObjects/UserPanel'
+
 
 import Data from '../src/data/TestData.json'
 
@@ -22,12 +21,8 @@ test('should allow user to upload a file ', async t => {
 
     await t
         .setTestSpeed(0.2)
-        .setFilesToUpload(Selector('input').withAttribute('type', 'file'), [
-            '../src/Apple.stl'])
-
-        .expect(UserPanel.deleteButton.exists)
-        .ok();
-
+        .setFilesToUpload(UserPanel.fileUploadSelector, '../src/Apple.stl')
+        
     console.log('User is able to upload');
 
 });

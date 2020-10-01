@@ -1,8 +1,4 @@
-import {Selector} from 'testcafe'
-
 import LoginPage from '../src/PageObjects/LoginPage'
-import PopUpScreen from '../src/PageObjects/PopUpScreen'
-
 import Data from '../src/data/TestData.json'
 
 

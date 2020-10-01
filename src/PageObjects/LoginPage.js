@@ -18,12 +18,12 @@ class LoginPage {
     }
 
 
-    async uploadFile(t) {
-        await t
-        .maximizeWindow()
+   // async uploadFile(t) {
+     //   await t
+       // .maximizeWindow()
         
 
-    }
+   // }
 
 }
 
