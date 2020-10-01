@@ -44,7 +44,7 @@ If github is not configured on the system, then project can be downloaded using 
 4. package.json --> This package contains all the dependencies for the project execution.
    
 
-#### For executing the tests, navigate to the tests folder in the project and use the command npm run test
+#### For executing the tests, navigate to the tests folder in the project and use the command : npm run test
 
 
 ### Improvements to be made (Devops way):
