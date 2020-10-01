@@ -49,7 +49,7 @@ If github is not configured on the system, then project can be downloaded using 
 
 ### Improvements to be made (Devops way):
 
-###### Quality is Everone's responsibility. No Blame Game in the Team but a Constant feedback mechanish within the team to foster ONE Team culture (this is highly encouraged as members within the team may have different skillset and may help if someone is getitng stuck due to some technical challenges)
+###### Quality is Everone's responsibility. No Blame Game in the Team but a Constant feedback mechanism within the team to foster ONE Team culture (this is highly encouraged as members within the team may have different skillset and may help if someone is getitng stuck due to some technical challenges)
 
 ###### Continuouos code integration (any tool e.g. git could be used) to ensure frequent code changes to be pushed in the repo
 ###### The tests to be run as part of the build process (on every approved pull request)
