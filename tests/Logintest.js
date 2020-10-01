@@ -1,8 +1,6 @@
 import LoginPage from '../src/PageObjects/LoginPage'
 import Data from '../src/data/TestData.json'
 
-
-
 fixture('Login Test')
     .page(Data.appUrl)
     
