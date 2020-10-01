@@ -53,7 +53,7 @@ If github is not configured on the system, then project can be downloaded using 
 
 ###### Continuouos code integration (any tool e.g. git could be used) to ensure frequent code changes to be pushed in the repo
 ###### The tests to be run as part of the build process (on every approved pull request)
-###### The tests to be data driven withi no hard coded data
+###### The tests to be data driven with no hard coded data
 ###### Fostering Test Data management
 ###### Continuous testing to be implemented within the team. This can achieved with idenfication of condition best suited for test automation.
 ###### Collaboration between Dev and QA for better coverage unit test, e2e test, code reviews
