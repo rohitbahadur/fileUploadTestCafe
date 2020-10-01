@@ -45,3 +45,21 @@ If github is not configured on the system, then project can be downloaded using 
    
 
 #### For executing the tests, navigate to the tests folder in the project and use the command npm run test
+
+
+### Improvements to be made (Devops way):
+
+###### Continuouos code integration (any tool e.g. git could be used) to ensure frequent code changes to be pushed in the repo
+###### The tests to be run as part of the build process (on every approved pull request)
+###### Continuous testing to be implemented within the team. This can achieved with idenfication of condition best suited for test automation.
+###### Collaboration between Dev and QA for better coverage of tests
+###### Code quality measure to be adopted while running the build in pipeline
+###### Reporting mechanism for the status on the build (could be splunk / DataDog... or any other tool)
+###### Constant colloboration with the PO to understand business needs for better acceptance criteria within the stories / requirement specifications
+###### Implement BDD approach to enable collaboration between the Development and the Business and reduce the ambiguity in requirements
+###### Constant feedback mechanish within the team to foster ONE Team culture (this is highly encouraged as members within the team may have different skillset and may help if          someone is getitng stuck due to some technical challenges)
+###### Defect Management and reporting
+###### Fostering Test pyramid culture (maximum test at unit level and only business test at the UI level)
+###### Active involvement of PO during the testing
+###### Fostering Exploratory test culture to uncover hidden challenges
+###### Fostering In Sprint automation for faster release cycles.
